@@ -109,9 +109,10 @@ char: 1 byte
 ```bash
 gcc syntax_checker.c -o syntax_checker
 ```
-2. Run the program: ```bash
-  ./syntax_checker
-   ```
+2. Run the program:
+```bash
+./syntax_checker
+```
 3. Make sure the C source file to analyze is placed in input.txt.
 
 
@@ -119,11 +120,16 @@ gcc syntax_checker.c -o syntax_checker
 ---
 ## Learning Outcomes
 
--This project demonstrates:
+This project demonstrates:
+
 -File handling in C
+
 -String parsing and token detection
+
 -Basic static code analysis
+
 -Syntax pattern validation
+
 -Modular program design
 
 
@@ -131,11 +137,16 @@ gcc syntax_checker.c -o syntax_checker
 
 ## Future Improvements
 
--Possible improvements for the project:
+Possible improvements for the project:
+
 -Support multi-line comments (/* */)
+
 -Detect unused variables
+
 -Generate detailed syntax error reports
+
 -Add GUI interface
+
 -Support analysis for multiple files
 
 ---

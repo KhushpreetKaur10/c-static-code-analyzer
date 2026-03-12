@@ -109,7 +109,9 @@ char: 1 byte
 ```bash
 gcc syntax_checker.c -o syntax_checker
 ```
-2. Run the program: ```bash ./syntax_checker ```
+2. Run the program: ```bash
+  ./syntax_checker
+   ```
 3. Make sure the C source file to analyze is placed in input.txt.
 
 
@@ -140,5 +142,7 @@ gcc syntax_checker.c -o syntax_checker
 ## Author
 
 Khushpreet Kaur
+
 Computer Science Student
+
 GitHub: https://github.com/KhushpreetKaur10

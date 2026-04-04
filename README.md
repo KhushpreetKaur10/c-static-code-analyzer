@@ -89,16 +89,20 @@ Checks include:
 
 ## 🏗️ Project Structure
 syntax-checker/
-│
-├── syntax_checker.c
+
+├── main.c
+
 ├── input.txt
+
 ├── output.txt
+
 └── README.md
+
 
 
 | File | Description |
 |------|------------|
-| `syntax_checker.c` | Main analyzer program |
+| `main.c` | Main analyzer program |
 | `input.txt` | Input C program |
 | `output.txt` | Generated formatted output |
 
@@ -120,22 +124,28 @@ syntax-checker/
 
 ## 🧪 Example Output
 ------ CLEAN CODE ------
+
 Line 1 [18]: #include<stdio.h>
 Line 2 [11]: int main()
 
 ------ BRACKET CHECK ------
+
 All brackets are balanced correctly ✅
 
 ------ KEYWORDS ------
+
 Line 2: int
 
 ------ BUILTIN FUNCTIONS ------
+
 printf: 2
 
 ------ UNDECLARED VARIABLE CHECK ------
+
 Line 8: x is undeclared
 
 ------ DUPLICATE VARIABLE CHECK ------
+
 Line 11: Duplicate variable 'a'
 
 

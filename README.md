@@ -129,6 +129,7 @@ syntax-checker/
 ------ CLEAN CODE ------
 
 Line 1 [18]: #include<stdio.h>
+
 Line 2 [11]: int main()
 
 ------ BRACKET CHECK ------

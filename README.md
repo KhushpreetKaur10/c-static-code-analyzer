@@ -9,6 +9,9 @@ A powerful **C-based static code analysis tool** that reads a C source file and 
 
 This project goes beyond basic parsing and implements **compiler-like logic**, including **comment removal, tokenization, scope tracking, and format validation**.
 
+🚀 This is an improved version of the project with enhanced parsing, 
+better syntax validation, and advanced error detection.
+
 ---
 
 ## ✨ Highlights

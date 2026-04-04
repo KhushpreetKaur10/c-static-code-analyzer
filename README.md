@@ -95,9 +95,11 @@ syntax-checker/
 
 ├── main.c
 
-├── input.txt
+├── data
 
-├── output.txt
+  ├── input.txt
+
+  ├── output.txt
 
 ├── LICENSE
 

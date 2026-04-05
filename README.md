@@ -184,7 +184,9 @@ c-static-code-analyzer/
 | `duplicate.c` | Detects duplicate variable declarations |
 | `input.txt` | Input C source file |
 | `output.txt` | Output of analyzed code |
+| `utils/` | optional helper functions (currently unused, reserved for future common utilities) |
 | `Makefile` | Build automation script |
+ 
 
 ---
 

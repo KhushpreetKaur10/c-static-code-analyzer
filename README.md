@@ -156,8 +156,12 @@ c-static-code-analyzer/
 │   ├── helpers.c
 │   └── helpers.h
 │
-├── input.txt
-├── output.txt
+├── data/
+│   ├── input.txt
+│   └── output.txt
+|
+├── LICENSE
+├── README.md
 └── Makefile
 ```
 

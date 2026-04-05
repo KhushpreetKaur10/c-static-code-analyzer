@@ -1,6 +1,7 @@
 #include "../include/variables.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h> // for atoi
 #include <ctype.h>
 
 int getTypeIndex(char *word);
@@ -117,6 +118,17 @@ int getVarType(char *var){
     if (strstr(var, "double")) return 2;
     if (strstr(var, "char")) return 3;
 
+    return -1;
+}
+
+
+//COUNT VARIABLES
+int getTypeIndex(char *word) {
+    const char *types[] = {"int", "char", "long", "double", "float", "short"};
+    for (int i = 0; i < 6; i++) {
+        if (strcmp(word, types[i]) == 0)
+            return i;
+    }
     return -1;
 }
 
